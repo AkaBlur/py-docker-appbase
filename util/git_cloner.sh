@@ -46,5 +46,7 @@ git_clone()
     fi
 }
 
-export -f git_clone
+export -f git_repo_name
 export -f git_check_repo
+export -f git_checkout
+export -f git_clone

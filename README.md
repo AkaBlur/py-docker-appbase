@@ -13,7 +13,7 @@ single git repository as remote source.
   - Locally deployed
   - Available as git repository
 
-> [!IMPORTANT] - Python Application
+> [!IMPORTANT]
 > 
 > The used Python application needs a startup-file called `bootstrap.sh` in the
 > top-level directory.

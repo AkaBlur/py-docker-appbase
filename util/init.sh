@@ -63,6 +63,7 @@ if [ ! -f "bootstrap.sh" ]; then
     die "Application directory doesn't contain a 'bootstrap.sh' startup file!"
 fi
 
+chmod 755 bootstrap.sh
 bash -c "./bootstrap.sh"
 
 exit 0
